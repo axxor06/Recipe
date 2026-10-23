@@ -34,7 +34,7 @@ function Home() {
             <Header />
 
             <div style={{ marginTop: '100px' }} className="container-fluid">
-                <Form.Control className="mb-4"placeholder="Searcjh" value={search} onChange={handleSearch}/>
+                <Form.Control className="mb-4"placeholder="Searcjh by cuisine" value={search} onChange={handleSearch}/>
 
                 <Link to="/add">
                     <Button className="mb-4">Add Recipe</Button>

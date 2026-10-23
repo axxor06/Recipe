@@ -46,7 +46,7 @@ function Home() {
                     </div>
                 ) : error ? (
                     <div className="alert alert-danger">{error}</div>
-                ) : (
+    ) : (
                     <Row>                {recipes.map((recipe) => (
             <Col key={recipe.id} className="m-3">
                         <Card style={{ width: '18rem' }}><Card.Img
